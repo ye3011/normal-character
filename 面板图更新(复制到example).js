@@ -35,7 +35,7 @@ export class Updatenormal extends plugin {
       exec(cmd, { cwd: Path, stdio: 'inherit' }, (output, error) => {
         if (error) {
           if (error.match(/Already up to date\./)) { this.reply('当前面板图已是最新') } else {
-            this.reply('面板图更新结束')
+            this.reply('面板图更新成功')
           }
         } else { return this.reply(`更新错误：${output}`) }
       })
