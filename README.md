@@ -2,6 +2,8 @@
 下载压缩包或者使用命令拉取
 
 崽的根目录执行
+
+Gituhb
 ```
 git clone https://github.com/ye3011/normal-character ./plugins/miao-plugin/resources/profile/normal-character
 /.git
