@@ -3,7 +3,7 @@
 
 崽的根目录执行
 
-Gituhb
+GitHub
 ```
 git clone https://github.com/ye3011/normal-character ./plugins/miao-plugin/resources/profile/normal-character
 /.git
