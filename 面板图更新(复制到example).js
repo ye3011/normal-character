@@ -29,7 +29,7 @@ export class Updatenormal extends plugin {
         }
       })
     } else {
-      await this.reply(`更新中，耐心等待，保存路径${Path}`)
+      await this.reply(`面板图更新中，保存路径${Path}`)
       cmd = 'git pull'
       if (this.e.msg.includes('强制')) { execSync('git fetch && git reset --hard', { cwd: Path }) }
       exec(cmd, { cwd: Path, stdio: 'inherit' }, (output, error) => {
@@ -37,7 +37,7 @@ export class Updatenormal extends plugin {
           if (error.match(/Already up to date\./)) { this.reply('当前面板图已是最新') } else {
             this.reply('面板图更新成功')
           }
-        } else { return this.reply(`更新错误：${output}`) }
+        } else { return this.reply(`更新失败，连接错误：${output}`) }
       })
     }
   }
