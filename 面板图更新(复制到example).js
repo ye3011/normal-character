@@ -19,6 +19,10 @@ export class Updatenormal extends plugin {
   }
 
   async Updatenormal (e) {
+    if (!e.isMaster) {
+      await e.reply(`只有主人才能命令我哦~`)
+      return true
+    }
     let cmd = ''
     if (!fs.existsSync(Path) || this.e.msg.includes('下载')) {
       await this.reply(`开始下载${url}`)
