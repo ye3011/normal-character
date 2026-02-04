@@ -28,11 +28,11 @@ export class updatePanel extends plugin {
       priority: 10,
       rule: [
         {
-          reg: '^#更新面板图$',
+          reg: '^#?(面板图更新|更新面板图)$',
           fnc: 'updatePanel'
         },
         {
-          reg: '^#面板图测试$',
+          reg: '^#?面板图测试$',
           fnc: 'testUpdate'
         }
       ]
