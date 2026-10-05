@@ -16,3 +16,7 @@ git clone --depth 1 https://gitcode.com/RainFoam0693/normal-character.git ./plug
 
 普通面板(非彩蛋面板)存放位置
 ./plugins/miao-plugin/resources/profile/normal-character
+
+#### 交流群：769990934
+
+[交流群链接](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KDmn4rzVCR1rODwj-XklRzmJJtaMkiu4&authKey=f%2F3rXbU%2FfyfFkRfyKoT0lF%2FSV%2FjOUOyEKFG%2Fm1pcupOpYYLUw1ownWT79DgnFuNR&noverify=0&group_code=769990934)
