@@ -8,8 +8,6 @@
 git clone --depth 1 https://github.com/ye3011/normal-character ./plugins/miao-plugin/resources/profile/normal-character
 ```
 ### Gitcode（这个源违规了，所以变成私库源，有需要的➕Q：3337194602）
-[前往加我>>>]
-(https://qm.qq.com/q/jDTJq91mpO)
 
 首先前往[token-classic](https://gitcode.com/setting/token-classic)获取个人令牌
 ```
